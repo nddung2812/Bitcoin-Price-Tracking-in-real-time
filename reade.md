@@ -1,0 +1,1 @@
+This app is to track the price of Bitcoin and other cryptocurrencies 
