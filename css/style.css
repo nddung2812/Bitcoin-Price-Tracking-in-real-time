@@ -11,19 +11,23 @@ html {
 
 body {
   font-family: system-ui;
-  color: #555;
-  background-color: #f7f7f7;
+  color: rgb(42, 42, 42);
   min-height: 100vh;
-
-  display: flex;
   align-items: center;
+  display:flex;
   justify-content: center;
+  background: linear-gradient(to top left, rgb(227, 136, 61),rgb(229, 201, 102));
 }
-
+h1 {
+  font-family: sans-serif;
+  font-size:50px;
+  margin-top: 20px;
+}
 .container {
   display: flex;
   flex-flow: column;
   align-items: center;
+  align-items: space-around;
 }
 
 .countries {
@@ -85,7 +89,7 @@ body {
   font-size: 1.4rem;
   margin-bottom: 2.5rem;
   text-transform: uppercase;
-  color: #888;
+  color: rgb(33, 136, 38);
 }
 
 .country__row:not(:last-child) {
